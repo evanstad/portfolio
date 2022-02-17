@@ -1,0 +1,43 @@
+body {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+header a {
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+header {
+  color: black;
+  padding: 20px 35px;
+  background-color: #e7e7e7;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer {
+  background: whitesmoke;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  color: black;
+}
+
+footer h3 {
+  color: black;
+  font-size: 15px;
+
